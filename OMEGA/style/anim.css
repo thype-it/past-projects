@@ -1,0 +1,178 @@
+.anim-hide {
+    opacity: 0;
+}
+
+.anim-right-x {
+    animation: anim-right .7s forwards ease-out;
+    animation-delay: .5s;
+}
+.anim-left-x {
+    animation: anim-left .7s forwards ease-out;
+    animation-delay: .5s;
+}
+.anim-top-x {
+    animation: anim-top .7s forwards ease-out;
+    animation-delay: .5s;
+}
+.anim-bottom-x {
+    animation: anim-bottom .7s forwards ease-out;
+    animation-delay: .5s;
+}
+
+
+@keyframes anim-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes anim-top {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-left {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-right {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-bottom {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* LONG */
+
+@keyframes anim-top-long {
+    from {
+        transform: translateY(-250px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-left-long {
+    from {
+        transform: translateX(-250px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-right-long {
+    from {
+        transform: translateX(250px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-bottom-long {
+    from {
+        transform: translateY(250px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-bottom-huge {
+    from {
+        transform: translateY(650px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* SHORT  */
+
+@keyframes anim-top-short {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-left-short {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-right-short {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-bottom-short {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

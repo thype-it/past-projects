@@ -1,0 +1,128 @@
+.top-section .categories a.button.selected.calm {
+  background-color: #ed991f;
+  border-color: #ed991f;
+}
+
+.top-section .categories a.button.selected.pure {
+  background-color: #a1cb4d;
+  border-color: #a1cb4d;
+}
+
+.top-section .categories a.button.selected.soft {
+  background-color: #c663b3;
+  border-color: #c663b3;
+}
+
+.top-section .categories a.button.selected.fit {
+  background-color: #81e1ff;
+  border-color: #81e1ff;
+}
+
+.top-section .categories a.button.selected.fun {
+  background-color: #eb4b4d;
+  border-color: #eb4b4d;
+}
+
+.top-section .categories a.button.selected.all {
+  background-color: #acacac;
+  border-color: #acacac;
+}
+
+.top-section {
+  height: 700px;
+  background-color: #dcdcdc;
+  position: fixed;
+  z-index: 1;
+}
+.top-section .container {
+  width: 90%;
+}
+.top-section .categories {
+  height: 50px;
+  margin-top: 70px;
+  border-bottom: 1px solid #dcdcdc;
+  border-color: #acacac;
+}
+.top-section .categories a.button {
+  color: #282828;
+  border-color: #acacac;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-right: 10px;
+}
+.top-section .categories a.button.selected {
+  color: #fff;
+}
+.top-section .categories a.button.all {
+  position: relative;
+  margin-right: 35px;
+}
+.top-section .categories a.button.all::after {
+  height: 100%;
+  width: 1px;
+  background-color: #acacac;
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.product-page {
+  box-shadow: 0px 0px 30px 9px #444;
+  position: relative;
+  border-radius: 40px;
+  border-bottom-right-radius: 0;
+  z-index: 2;
+  padding: 40px 0;
+  background-color: #fff;
+}
+.product-page:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  bottom: -75px;
+  right: 0;
+  height: 75px;
+  width: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 -40px 0 0 #fff;
+  z-index: 1;
+}
+.product-page .products {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-page .products li {
+  box-shadow: 0px 0px 11px -5px #444;
+  border-radius: 20px;
+  height: 40vh;
+  height: calc(var(--vh) * 40);
+  width: 45%;
+  margin: 2.5%;
+}
+
+@media screen and (min-width: 780px) {
+  .top-section .categories {
+    padding-top: 20px;
+    margin-top: 100px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: none;
+    border-color: #acacac;
+  }
+
+  .product-page {
+    border-radius: 75px;
+    border-bottom-right-radius: 0;
+  }
+  .product-page::after {
+    bottom: -170px;
+    height: 170px;
+    width: 100px;
+    border-top-right-radius: 75px;
+    box-shadow: 0 -93px 0 0 #fff;
+  }
+}
+
+/*# sourceMappingURL=categories.css.map */

@@ -1,0 +1,22 @@
+.group:before,
+.container:before,
+.menu:before,
+.group:after,
+.container:after,
+.menu:after {
+	content: " ";
+	display: table;
+}
+
+.group:after,
+.container:after,
+.menu:after {
+	clear: both;
+}
+
+.group,
+.container,
+.menu {
+	*zoom: 1;
+}
+
